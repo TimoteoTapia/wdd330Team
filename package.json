@@ -11,7 +11,8 @@
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest",
     "fix": "eslint --fix --ext .js,.vue src",
-    "fixall": "lint -- --fix"
+    "fixall": "lint -- --fix",
+    "fixone": "npx eslint src/js/*.js --fix"
   },
   "author": "Shane Thompson",
   "license": "ISC",
